@@ -15,40 +15,45 @@
 <body>
   <header>
     <!-- navbar -->
-    <nav class="navbar py-4 container navbar-expand-md">
-      <div class="container-fluid">
+    <nav class="navbar py-4 container navbar-expand-lg">
+      <div class="container">
         <a class="navbar-brand fs-1 fw-semibold darkish">Pro Edo</a>
+        <div class="d-flex">
+        <form class="" action="">
+          <button class="btn btn-outline-info fs-5  fw-semibold px-4 py-2 text-primary d-none d-md-block d-lg-none me-4" type="submit">Register</button>
+        </form>
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item mx-4">
-              <a class="nav-link fw-semibold" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link fw-semibold" aria-current="page" href="#">Courses</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link fw-semibold" aria-current="page" href="#">Deals</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link fw-semibold" aria-current="page" href="#">Success</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link fw-semibold" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link fw-semibold" aria-current="page" href="#">Register</a>
-            </li>
-            <ul>
-            
+      </div>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item mx-4">
+                <a class="nav-link fw-semibold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link fw-semibold" aria-current="page" href="#">Courses</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link fw-semibold" aria-current="page" href="#">Deals</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link fw-semibold" aria-current="page" href="#">Success</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link fw-semibold" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link fw-semibold" aria-current="page" href="#">Register</a>
+              </li>
+              <ul>
         </div>
       </div>
-      <form role="search ">
-        <button class="btn btn-outline-info fs-5  fw-semibold px-4 py-2 text-primary" type="submit">Register</button>
-      </form>
+        
+        <form role="search ">
+          <button class="btn btn-outline-info fs-5  fw-semibold px-4 py-2 text-primary d-none d-lg-block" type="submit">Register</button>
+        </form>
     </nav>
 
     <!-- image slide section  -->
@@ -105,6 +110,133 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </section>
+
+    <!-- our popular courses  -->
+
+    <section class="my-5 py-5 text-center">
+      <h2 class="text-center fw-bold fs-1">Discover Our Popular <br>
+        Courses</h2>
+        <p class="text-center text-muted">It is a long established fact that a reader will be distracted by the readable <br>
+          content of a page when looking at its layout</p>
+
+          <div class="container mt-5">
+
+            <div class="text-start row row-cols-lg-2 row-cols-md-1 row-cols-1 g-3">
+
+              <div class="col">
+              <div class=" card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 d-flex justify-content-center align-items-center">
+                    <div class="card-body  ">
+                      <h5 class="card-title fw-bold fs-4 darkish">Fundamental Of UI/UX Design</h5>
+                      <p class="card-text mb-1 text-muted">Some quick example text to build on the card title
+                        and make up the bulk of the card.</p>
+                        <p class="card-text fs-5 fw-bold text-primary">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col">
+              <div class=" card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4 darkish">Javascript Basic to advanced</h5>
+                      <p class="card-text mb-1 text-muted">Some quick example text to build on the card title
+                        and make up the bulk of the card.</p>
+                        <p class="card-text fs-5 fw-bold text-primary">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col">
+              <div class=" card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4 darkish">Fullstack Web Development</h5>
+                      <p class="card-text text-muted">Some quick example text to build on the card title
+                        and make up the bulk of the card.</p>
+                        <p class="card-text fs-5 fw-bold text-primary">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col d-none d-lg-block">
+              <div class=" card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4 darkish">Digital Marketing</h5>
+                      <p class="card-text text-muted">Some quick example text to build on the card title
+                        and make up the bulk of the card.</p>
+                        <p class="card-text fs-5 fw-bold text-primary">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col d-none d-lg-block">
+              <div class=" card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4 darkish">Photography Basic Rules</h5>
+                      <p class="card-text text-muted">Some quick example text to build on the card title
+                        and make up the bulk of the card.</p>
+                        <p class="card-text fs-5 fw-bold text-primary">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col d-none d-lg-block">
+              <div class=" card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold fs-4 darkish">Motion Graphics</h5>
+                      <p class="card-text text-muted">Some quick example text to build on the card title
+                        and make up the bulk of the card.</p>
+                        <p class="card-text fs-5 fw-bold text-primary">Price : 20$</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              
+            </div>
+          </div>
+
+           <button class=" btn btn-primary py-2 px-4 mt-4 fw-semibold fs-5 d-none d-lg-inline">See More Courses</button>    
+
+           <button class="btn btn-primary py-2 px-4 mt-4 fw-semibold fs-5 d-lg-none">View All</button>
+
+
+        
     </section>
   </header>
 
